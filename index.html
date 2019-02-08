@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <title>Calculator by leonjmac</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css"></link>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <h1>Calculator by LeonJMac</h1>
+        <div class="frame">
+            <div class="display">
+                <p id="signed" class="signed"></p>
+                <p id="input-current" class="input-current">0</p>
+            </div>
+            <div class="standard-view">
+                <div class="standard-buttons">                   
+                    <button class="calc-op non-digit" data-key="clear">AC</button> 
+                    <button class="calc-op non-digit" data-key="backspace">&larr;</button>
+                    <button class="calc-op non-digit" data-key="percentage">&#37;</button>
+
+                    <button class="digit std-btn">7</button>
+                    <button class="digit std-btn">8</button>
+                    <button class="digit std-btn">9</button>
+
+                    <button class="digit std-btn">4</button>
+                    <button class="digit std-btn">5</button>
+                    <button class="digit std-btn">6</button>
+
+                    <button class="digit std-btn">1</button>
+                    <button class="digit std-btn">2</button>
+                    <button class="digit std-btn">3</button>
+                    
+                    <button id="wide-digit" class="digit std-btn">0</button>
+                    <button id="decimal-point" class="std-btn">&#46;</button>
+                </div>
+
+                <div class="standard-controls">
+                    <button class="calc-op operator" data-key="divide">&divide;</button>
+                    <button class="calc-op operator" data-key="multiply">&times;</button>
+                    <button class="calc-op operator" data-key="subtract">&minus;</button>
+                    <button class="calc-op operator" data-key="add">&#43;</button>
+                    <button class="calc-op operator" data-key="equals">&#61;</button>
+                </div>
+            </div>
+        </div>
+        <h2>The Odin Project - Web Development 101</h2>
+        <p class="od-link"><a href="https://theodinproject.com" target="_blank">awesome challenges await</a></p>
+        
+        <script src="scripts/main.js" type="application/javascript"></script>
+    </body>
+</html>

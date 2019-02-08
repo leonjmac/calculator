@@ -11,10 +11,9 @@ And having completed the project (along with most of the optional tasks), I can 
 
 Current version includes most basic calculator tasks such as addition, subtraction, multiplication, division and calculating a percentage in a responsively designed manner.
 
-Keyboard is supported in this versin
+Keyboard entry is supported in this initial version.
 
 ## Future Development
-- Keyboard support 
 - Scientific mode!
 
 ## Thanks

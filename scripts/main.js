@@ -27,8 +27,13 @@ let signedIndicator = document.getElementById('signed')
 // renamed "operate" function
 function processOperation(operation) {
     // if request is to clear or perform backspace, pass through
-    if(operation === op_backspace.label || operation === op_clear.label) {
-        eval(`${operation}()`)
+    if(operation === op_backspace.label) {
+        backspace()
+        return
+    }
+
+    if(operation === op_clear.label) {
+        clear()
         return
     }
     
